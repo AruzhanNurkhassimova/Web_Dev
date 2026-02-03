@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    bax-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    font-family: Arial, ans-serif;
+}
+.logo {
+    padding: 15px 20px;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+.left {
+    text-align: center;
+}
+.left h1{
+    margin-bottom: 20px;
+}
+.right {
+    width: 300px;
+    padding: 30px;
+    border-left: 2px solid lightgray;
+}
+.right input, .right button {
+    width: 100%;
+    padding: 10px;
+    margin-botton: 10px;
+}
+.right input {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+.login {
+    background-color: rgb(0, 130, 240);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.facebook {
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+.new-account {
+    background-color: white;
+    border: 1px solid rgb(0, 130, 240);
+    color: rgb(0, 130, 240);
+    border-radius: 20px;
+}
+a {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #1c1e21;
+}
+.meta {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}

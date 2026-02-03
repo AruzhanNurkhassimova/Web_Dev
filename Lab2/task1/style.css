@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(200, 200, 200);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.page {
+    width: 800px;
+    margin: 150px auto;
+}
+.box{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+form {
+    background-color: white;
+    color: darkgrey;
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+}
+.login {
+    background-color: dodgerblue;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a {
+    color: dodgerblue;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.register {
+    background-color: #059862;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.logo_info {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-top: 40px;
+}
+#facebook {
+    color: #1877f2;
+    font-size: 48px;
+}
+.info {
+    font-size: 20px;
+}
