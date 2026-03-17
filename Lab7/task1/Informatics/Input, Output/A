@@ -1,0 +1,4 @@
+a = (double)input();
+b = (double)input();
+
+print(sqrt(a * a + b * b));
